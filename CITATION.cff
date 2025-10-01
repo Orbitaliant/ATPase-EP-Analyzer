@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "ATPase-EP-Analyzer"
+message: "If you use this workflow, please cite it as below."
+type: software
+authors:
+  - family-names: Matar
+    given-names: Islam K.
+    orcid: "https://orcid.org/0000-0001-5997-2574"
+repository-code: "https://github.com/Orbitaliant/ATPase-EP-Analyzer"
+license: Apache-2.0
+date-released: "2025-10-01"
