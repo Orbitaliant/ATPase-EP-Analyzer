@@ -66,6 +66,11 @@ git clone https://github.com/Orbitaliant/ATPase-EP-Analyzer.git
 cd ATPase-EP-Analyzer
 ```
 
+Create the atpase-ep-analyzer conda environment:
+```bash
+conda env create -f envs/atpase-ep-analyzer.yml
+```
+
 Test the workflow with an example:
 ```bash
 nextflow run ATPase-EP-Analyzer.nf --cif_input_dir assets/example_cif
