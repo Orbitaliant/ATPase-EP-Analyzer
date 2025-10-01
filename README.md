@@ -19,15 +19,6 @@ electrostatic potential (ESP) analysis for **F-type ATP synthase enzymes**:
 
 ---
 
-## 📊 Workflow
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Orbitaliant/ATPase-EP-Analyzer/main/assets/workflow_diagram.png" width="600" alt="Workflow diagram"/>
-</p>
-
-*(Tip: replace with a Nextflow DAG screenshot or schematic of your workflow.)*
-
----
-
 ## 🚀 Quickstart
 
 ### Requirements
