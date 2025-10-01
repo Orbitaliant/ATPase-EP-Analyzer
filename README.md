@@ -60,18 +60,20 @@ nextflow run ATPase-EP-Analyzer.nf --pH 7.4 --distmin 5.0 --distmax 15.0 --cif_i
 ---
 
 ## 🛠️ Installation
-Clone the repository:
+1) Clone the repository:
 ```bash
 git clone https://github.com/Orbitaliant/ATPase-EP-Analyzer.git
 cd ATPase-EP-Analyzer
 ```
 
-Create the atpase-ep-analyzer conda environment:
+2) Create the atpase-ep-analyzer conda environment:
 ```bash
 conda env create -f envs/atpase-ep-analyzer.yml
 ```
 
-Test the workflow with an example:
+3) Copy your installed conda environment path to the **nextflow.config** file.
+
+4) Test the workflow with an example:
 ```bash
 nextflow run ATPase-EP-Analyzer.nf --cif_input_dir assets/example_cif
 ```
@@ -85,7 +87,6 @@ If you use **ATPase-EP-Analyzer**, please cite:
 @software{Matar2025ATPaseEP,
   author  = {Islam K. Matar},
   title   = {ATPase-EP-Analyzer: Nextflow workflow for ATP synthase ESP analysis},
-  version = {v0.1.0},
   year    = {2025},
   url     = {https://github.com/Orbitaliant/ATPase-EP-Analyzer}
 }
